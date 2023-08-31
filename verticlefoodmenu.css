@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/vadapaw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: blueviolet;
+    width: 10%;
+    height: 100vh;
+}
+
+#container{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    display: block;
+    padding: 20px;
+
+}
+
+a:hover{
+    background-color: brown;
+}
+
+#drop1{
+    position: relative;
+}
+
+#menu1{
+    list-style-type: none;
+    background-color: red;
+    position: absolute;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#drop1:hover #menu1{
+    display: block;
+}
+
+#vpmenu{
+    list-style-type: none;
+    background-color: aqua;
+    position: absolute;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#vp:hover #vpmenu{
+    display: block;
+}
+
+
+#ds{
+    position: relative;
+}
+
+#dsmenu{
+    list-style-type: none;
+    background-color: rgb(241, 81, 129);
+    position: absolute;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#ds:hover #dsmenu{
+    display: block;
+}
+
+
+/* Non Veg Menu */
+#drop2{
+    position: relative;
+}
+
+#menu2{
+    list-style-type: none;
+    background-color: red;
+    position: absolute;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#drop2:hover #menu2{
+    display: block;
+}
+
+/* birynai */
+
+
+#biryani{
+    position: relative;
+}
+
+#bmenu{
+    list-style-type: none;
+    background-color: rgb(241, 81, 129);
+    position: absolute;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#biryani:hover #bmenu{
+    display: block;
+}
+
+
+/* Fried Rice */
+
+#fr{
+    position: relative;
+}
+
+#rmenu{
+    list-style-type: none;
+    background-color: rgb(241, 81, 129);
+    position: absolute;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#fr:hover #rmenu{
+    display: block;
+}
